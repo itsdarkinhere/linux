@@ -1,0 +1,4 @@
+So if you want to find all files containing Darth Vader in the current directory or any subdirectories and capture the filename and line number, 
+but do not want the recursion to follow symbolic links, the command would be
+
+grep -rnH "Darth Vader" .
