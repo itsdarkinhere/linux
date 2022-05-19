@@ -2,3 +2,20 @@ So if you want to find all files containing Darth Vader in the current directory
 but do not want the recursion to follow symbolic links, the command would be
 
 grep -rnH "Darth Vader" .
+
+
+
+
+
+Flags
+
+
+-r : Rrecursive search
+-i : Ignore case distinctions in patterns and data
+-w : Match only whole words
+-n : Show line number with output lines
+-e 'pattern' : Use PATTERNS for matching
+-E : All search PATTERNS are extended regular expressions
+--include=GLOB : Search only files that match GLOB (a file pattern)
+--exclude=GLOB : Skip files that match GLOB
+--exclude-dir=GLOB : Skip directories that match GLOB
